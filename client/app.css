@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body, html {
+    height: 100%;
+    margin: 0; /* Ensure no default margin */
+    background: url('https://housing.bdabangalore.org/uploads/property-site/63eda888134f1623335af47e1dc31608.jpg') no-repeat center center fixed; /* Add background image */
+    background-size: cover; /* Cover the entire background */
+}
+
+.img {
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(50px) brightness(0.7);
+  
+}
+
+  
+.title {
+    font-size: 56px; /* Increased size */
+    color: #ffffff; /* Bright blue color */
+    font-weight: bold; /* Bold font */
+    text-align: center; /* Center align the title */
+    margin-bottom: 50px; /* Space below the title */
+    font-family: 'Poppins', sans-serif;
+    /* Removed text-shadow for a cleaner look */
+}
+
+
+
+.form {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  margin: 100px auto;
+  width: 100%;
+}
+
+.area, .location, .submit, .result {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0 0 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+
+.area:focus, .location:focus, .submit:hover {
+  outline: none;
+  border-color: #a5dc86;
+  background-color: #e8ffe3;
+}
+
+.submit {
+  background: #a5dc86;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background: #8dc576;
+}
+
+.result {
+	background: #dcd686;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	height: auto; /* Allow the height to adjust based on content */
+	padding: 10px; /* Add padding to give space inside the box */
+	border-radius: 5px;
+	margin-top: 15px; /* Add margin to separate it from elements above */
+  }
+
+.switch-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+
+.switch-field label {
+  background-color: #e4e4e4;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-right: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.switch-field input:checked + label {
+  background-color: #a5dc86;
+  color: white;
+  border-color: #a5dc86;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
