@@ -1,5 +1,5 @@
 ## Housing Price Predictor
-![image](https://github.com/user-attachments/assets/f810e3e7-9e19-49e1-a652-64fb308ca866)
+![image](https://github.com/user-attachments/assets/c48e08bc-1068-4b58-b5c8-2bbcfc3c8375)
 
 
 ## Project Overview
