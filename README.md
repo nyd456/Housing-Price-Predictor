@@ -1,4 +1,4 @@
-## Housing Price Predictor
+# Housing Price Predictor
 ![image](https://github.com/user-attachments/assets/b003c20a-cc1b-4446-9e22-4d3a31523c4f)
 
 
